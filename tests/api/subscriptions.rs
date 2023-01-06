@@ -65,7 +65,6 @@ async fn subscribe_returns_a_400_when_fields_are_present_but_empty() {
             "The API did not fail with 400 Bad Request when the payload was {}.",
             error_message
         );
-
     }
 }
 
