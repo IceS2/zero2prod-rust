@@ -24,6 +24,10 @@ unicode-segmentation = "1"
 validator = "0.14"
 rand = { version = "0.8", features=["std_rng"] }
 
+# Error Handling
+thiserror = "1"
+anyhow = "1"
+
 # Secrets Handler
 secrecy = { version = "0.8", features = ["serde"] }
 
