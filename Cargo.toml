@@ -23,6 +23,13 @@ chrono = { version = "0.4.22", default-features = false, features = ["clock"] }
 unicode-segmentation = "1"
 validator = "0.14"
 rand = { version = "0.8", features=["std_rng"] }
+base64 = "0.13"
+argon2 = { version = "0.4", features = ["std"] }
+urlencoding = "2"
+htmlescape = "0.3"
+hmac = { version = "0.12", features = ["std"] }
+sha2 = "0.10"
+hex = "0.4"
 
 # Error Handling
 thiserror = "1"
